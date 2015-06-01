@@ -4,6 +4,9 @@ function [ app, det ] = waveletDecomposition( x )
 %app and det respectively.
 %   [ app, det ] = waveletDecomposition( x ) the process of wavelet
 %   decomposition uses twin filters; one low-pass and one high-pass.
+%
+%   The low-pass filter yields approximation coefficient vector, 'app'
+%	by down sampling the signal. Therefore details are
 %   reduced. First level decomposition has exactly one half the samples
 %   of x because the signal was decomposed in 4 levels. 2nd level has
 %   exactly half number of samples that of 1st level, 3rd level has
