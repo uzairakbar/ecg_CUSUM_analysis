@@ -3,9 +3,9 @@
 TITLE:      ECG Signal Analysis for MI Detection
 
 AUTHORS:    Asfandyar Hassan Shah
-            Mahnoor Naveed
-            Ryshum Ali
-            Uzair Akbar
+	    Mahnoor Haneef
+	    Ryshum Ali
+	    Uzair Akbar
 
 INSTITUTION:National University of Sciences & Technology (NUST), Sector
             H-12, Islamabad Pakistan.
@@ -16,10 +16,10 @@ VERSION:    0.0.1
 
 LICENSE:    CC0 1.0 Universal
 
-REPORT:		http://www.slideshare.net/uzairakbar25/project-report-48938679
+REPORT:	    http://www.slideshare.net/uzairakbar25/project-report-48938679
 
 DESCRIPTION:
-			Myocardial Infarction is one of the fatal heart diseases.
+	    Myocardial Infarction is one of the fatal heart diseases.
 It is essential that a patient is monitored for the early detection
 of MI. Owing to the newer technology such as wearable sensors which
 are capable of transmitting wirelessly, this can be done easily.
@@ -32,7 +32,7 @@ The ST elevation plays an important part in MI detection. We then use
 the sequential change point detection algorithm; CUmulative SUM
 (CUSUM), to detect any deviation in the ST elevation spectrum and to
 raise an alarm if we find any.
-			The project uses the EDB medical database from the
+	    The project uses the EDB medical database from the
 PhysioNet. This database consists of 90 annotated ECG recordings
 from 79 subjects. These subjects have various heart anomalies (vessel
 disease, hypertension, coronary artery disease, ventricular dyskinesia,
@@ -46,6 +46,6 @@ The database is available at:
 
 http://www.physionet.org/physiobank/database/edb/
 
-Patient e0105.dat was particalarly interesting as he has Inferior
+	    Patient e0105.dat was particalarly interesting as he has Inferior
 myocardial infarction and our algorithm showed positive results for the
 ECG.
