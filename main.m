@@ -1,16 +1,20 @@
-%   TITLE:      ECG Signal Analysis for MI Detection
-%   
-%   AUTHORS:    Asfandyar Hassan Shah
-%               Mahnoor Haneef
-%               Ryshum Ali
-%               Uzair Akbar
-%   
-%   INSTITUTION:National University of Sciences & Technology (NUST), Sector
-%               H-12, Islamabad Pakistan.
-%   
-%   DATED:      May 29, 2015
-%   
-%   VERSION:    0.0.1
+%	TITLE:      ECG Signal Analysis for MI Detection
+%	
+%	AUTHORS:    Asfandyar Hassan Shah
+%	            Mahnoor Naveed
+%	            Ryshum Ali
+%	            Uzair Akbar
+%	
+%	INSTITUTION:National University of Sciences & Technology (NUST), Sector
+%	            H-12, Islamabad Pakistan.
+%	
+%	DATED:      May 29, 2015
+%	
+%	VERSION:    0.0.1
+%	
+%	LICENSE:	CC0 1.0 Universal
+%	
+%	REPORT:		http://www.slideshare.net/uzairakbar25/project-report-48938679
 %   
 %   DESCRIPTION:
 %               This project studies a prospective method by which we can
