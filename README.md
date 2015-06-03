@@ -2,9 +2,9 @@
 
 TITLE:      ECG Signal Analysis for MI Detection
 
-AUTHORS:    Asfandyar Hassan Shah
-	    Mahnoor Haneef
-	    Ryshum Ali
+AUTHORS:    Asfandyar Hassan Shah,
+	    Mahnoor Haneef,
+	    Ryshum Ali,
 	    Uzair Akbar
 
 INSTITUTION:National University of Sciences & Technology (NUST), Sector
