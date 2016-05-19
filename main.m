@@ -29,7 +29,7 @@ clear;
 clc;
 
 Fs = 250;       %   ECG Sampling Frequency
-T = 3600;       %   Time in seconds
+T = 3600*2;     %   Time in seconds
 
 %   The project uses the EDB medical database from the PhysioNet. This
 %   database consists of 90 annotated ECG recordings from 79 subjects.
@@ -58,3 +58,5 @@ Fs = Fs/4;
 [P, Q, R, S, T] = ecgAnalysis( processed_ecg, Fs, det);
 
 miDetection( processed_ecg, S, T);
+
+fclose(ecg_file);

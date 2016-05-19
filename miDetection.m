@@ -11,15 +11,17 @@ st_elevation = stElevation(ecg, S, T);  %   Extract ECG ST-elevations
 %//////////////////////////////////////////////////////////////////////////
 
 h = 2;              %   Threshold Coefficient
-k = 3;              %   Minimum No. ST Elevations to detect for an alarm
+k = 1;              %   Minimum No. ST Elevations to detect for an alarm
 window = 100;       %   Sliding window size for CUSUM algorithm
-alarms = CUSUM(st_elevation, h, k, window);    %   Extract the alarm
-                                               %   vector
+d = 25;             %   Change magnitude assiciated with hypothesis H0 and 
+                    %   H1 such that: u1 = u0 + d
+                    
+% Extract the alarm vector
+[alarms, nc] = CUSUM(st_elevation, h, k, window, d);
 
 %//////////////////////////////////////////////////////////////////////////
-
-alarm_pos = alarms(find(alarms(:, 1) > 0), 2);      %   Locate alarm
-                                                    %   positions
+                                               
+alarm_pos = st_elevation(find(alarms), 2);      %   Locate alarm Position
 
 plot(ecg);          %   Plot the ECG, with alarms and S & T peaks
 hold on
@@ -30,7 +32,7 @@ scatter(S(:, 1), S(:, 2), 'm', 'o')
 scatter(T(:, 1), T(:, 2), 'y', 'o')
 hold off
 title('CUSUM Alarms in ECG');
-legend('ECG', 'CUSUM Alarms', 'S-Peaks', 'T-Peaks');
+legend('ECG', 'CUSUM Alarms');
 subplot(111)
 
 end
