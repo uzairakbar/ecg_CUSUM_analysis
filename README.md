@@ -5,7 +5,7 @@
 | **AUTHORS:**  | Uzair Akbar, Asfandyar Hassan Shah, Mahnoor Haneef, Ryshum Ali, Saad Qureshi |
 | **INSTITUTION:**  | National University of Sciences & Technology (NUST), Sector H-12, Islamabad Pakistan. |
 | **DATED:**  | May 29, 2015 |
-| **VERSION:**  | 1.0.0 |
+| **VERSION:**  | 0.24 |
 | **LICENSE:**  | CC0 1.0 Universal |
 | **DOCUMENTATION:**  | [Project Report](http://www.slideshare.net/UzairAkbar/ecg-signal-analysis-for-myocardial-infarction-detection), [Project Presentation](http://www.slideshare.net/UzairAkbar/ecg-signal-analysis-for-myocardial-infarction-detection-74177496) |
 
