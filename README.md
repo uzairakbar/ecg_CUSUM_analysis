@@ -1,9 +1,9 @@
-# ecg_signal_analysis_for_mi_detection
+# ECG Signal Analysis for MI Detection
 
 | **TITLE:**  | ECG Signal Analysis for MI Detection |
 | ------------- | ----------- |
 | **AUTHORS:**  | Uzair Akbar, Asfandyar Hassan Shah, Mahnoor Haneef, Ryshum Ali, Saad Qureshi |
-| **INSTITUTION:**  | National University of Sciences & Technology (NUST), Sector H-12, Islamabad Pakistan. |
+| **INSTITUTION:**  | National University of Sciences & Technology (NUST), Sector H-12, Islamabad, Pakistan. |
 | **DATED:**  | May 29, 2015 |
 | **VERSION:**  | 0.24 |
 | **LICENSE:**  | CC0 1.0 Universal |

@@ -6,11 +6,11 @@ function [processed_ecg, det] = ecgPreprocessing( ecg, Fs )
 %   carrecting baseline wandering in the original ecg, 'ecg', at sampling
 %   frequency 'Fs'.
 
-[app, det] = waveletDecomposition(ecg);    %   wavelet decomposition for
-                                    %   removing noise
+[app, det] = waveletDecomposition(ecg);     %   wavelet decomposition for
+                                            %   removing noise
 
-Fs = Fs/4;                          %   downsampling due to wavelet
-                                    %   decomposition
+Fs = Fs/4;                                  %   downsampling due to wavelet
+                                            %   decomposition
 
 %//////////////////////////////////////////////////////////////////////////
 
