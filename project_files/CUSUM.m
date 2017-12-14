@@ -4,7 +4,7 @@ function [alarms, nc] = CUSUM( x, h, k, window, d )
 %   detection threshold h, the change magnitude d, the window size window
 %   and the no. of change points to set an alarm, k as arguments.
 %
-%   The function returns returns a change point vector nc, containing ones 
+%   The function returns a change point vector nc, containing ones 
 %   where there is a change point. Similarly, an alarms vector, containing 
 %   the alarm positions depending on the value of k is also returned.
 %	
